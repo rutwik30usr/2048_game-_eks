@@ -73,7 +73,7 @@ eksctl create cluster \
 --name 2048-cluster \
 --region ap-south-1 \
 --nodegroup-name 2048-nodegroup \
---node-type t3.medium \
+--node-type t3.medium \  -c7i-flex.large-----use this 
 --nodes 2 \
 --nodes-min 1 \
 --nodes-max 3 \
